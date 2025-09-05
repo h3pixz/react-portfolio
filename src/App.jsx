@@ -1,13 +1,18 @@
-import Header from './components/header/Header.jsx'
+import { Header, Footer, Home } from "./components/index.js"
 function App() {
   
 
   return (
     <>
     <Header />
-      <div>
+    <Footer />
+    <main>
+      <Home />
+      <div className="container">
         <h1>react portfolio</h1>
       </div>
+    </main>
+      
     </>
   )
 }
